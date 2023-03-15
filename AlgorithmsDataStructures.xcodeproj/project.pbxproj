@@ -24,6 +24,7 @@
 		0617A3B829BB92B500F66923 /* QuickSortMedian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0617A3B729BB92B500F66923 /* QuickSortMedian.swift */; };
 		0617A3BA29BB945600F66923 /* QuickSortDutchFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0617A3B929BB945600F66923 /* QuickSortDutchFlag.swift */; };
 		0617A3BD29BE529400F66923 /* NQueens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0617A3BC29BE529400F66923 /* NQueens.swift */; };
+		0617A3BF29C22EED00F66923 /* RobotCleaner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0617A3BE29C22EED00F66923 /* RobotCleaner.swift */; };
 		063A4A1A29B360B100B6018E /* GoodNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063A4A1929B360B100B6018E /* GoodNotes.swift */; };
 		0647630F28A256F200497902 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0647630E28A256F200497902 /* AppDelegate.swift */; };
 		0647631128A256F200497902 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0647631028A256F200497902 /* SceneDelegate.swift */; };
@@ -74,6 +75,7 @@
 		0617A3B729BB92B500F66923 /* QuickSortMedian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSortMedian.swift; sourceTree = "<group>"; };
 		0617A3B929BB945600F66923 /* QuickSortDutchFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSortDutchFlag.swift; sourceTree = "<group>"; };
 		0617A3BC29BE529400F66923 /* NQueens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQueens.swift; sourceTree = "<group>"; };
+		0617A3BE29C22EED00F66923 /* RobotCleaner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotCleaner.swift; sourceTree = "<group>"; };
 		063A4A1929B360B100B6018E /* GoodNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodNotes.swift; sourceTree = "<group>"; };
 		0647630B28A256F200497902 /* AlgorithmsDataStructures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgorithmsDataStructures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0647630E28A256F200497902 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 				060821DA291523A7008077B0 /* Palindrome.swift */,
 				063A4A1929B360B100B6018E /* GoodNotes.swift */,
 				0617A3BC29BE529400F66923 /* NQueens.swift */,
+				0617A3BE29C22EED00F66923 /* RobotCleaner.swift */,
 			);
 			path = Random;
 			sourceTree = "<group>";
@@ -415,6 +418,7 @@
 				06AC5B8B28B90AA8000628DD /* ReverseQueue.swift in Sources */,
 				0617A3AF29B8D11300F66923 /* Matrix.swift in Sources */,
 				06AC5B8928B902CF000628DD /* BoardGameManager.swift in Sources */,
+				0617A3BF29C22EED00F66923 /* RobotCleaner.swift in Sources */,
 				0608218628DCA692008077B0 /* Trie.swift in Sources */,
 				06AC5B8428B8A676000628DD /* QueueRingBuffer.swift in Sources */,
 				0681B28E2923E532005A92EC /* InsertionSort.swift in Sources */,
