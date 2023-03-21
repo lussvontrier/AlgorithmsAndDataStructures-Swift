@@ -25,6 +25,7 @@
 		0617A3BA29BB945600F66923 /* QuickSortDutchFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0617A3B929BB945600F66923 /* QuickSortDutchFlag.swift */; };
 		0617A3BD29BE529400F66923 /* NQueens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0617A3BC29BE529400F66923 /* NQueens.swift */; };
 		0617A3BF29C22EED00F66923 /* RobotCleaner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0617A3BE29C22EED00F66923 /* RobotCleaner.swift */; };
+		0617A3C129C5113200F66923 /* SudokuSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0617A3C029C5113200F66923 /* SudokuSolver.swift */; };
 		063A4A1A29B360B100B6018E /* GoodNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063A4A1929B360B100B6018E /* GoodNotes.swift */; };
 		0647630F28A256F200497902 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0647630E28A256F200497902 /* AppDelegate.swift */; };
 		0647631128A256F200497902 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0647631028A256F200497902 /* SceneDelegate.swift */; };
@@ -76,6 +77,7 @@
 		0617A3B929BB945600F66923 /* QuickSortDutchFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSortDutchFlag.swift; sourceTree = "<group>"; };
 		0617A3BC29BE529400F66923 /* NQueens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQueens.swift; sourceTree = "<group>"; };
 		0617A3BE29C22EED00F66923 /* RobotCleaner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotCleaner.swift; sourceTree = "<group>"; };
+		0617A3C029C5113200F66923 /* SudokuSolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuSolver.swift; sourceTree = "<group>"; };
 		063A4A1929B360B100B6018E /* GoodNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodNotes.swift; sourceTree = "<group>"; };
 		0647630B28A256F200497902 /* AlgorithmsDataStructures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgorithmsDataStructures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0647630E28A256F200497902 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 				063A4A1929B360B100B6018E /* GoodNotes.swift */,
 				0617A3BC29BE529400F66923 /* NQueens.swift */,
 				0617A3BE29C22EED00F66923 /* RobotCleaner.swift */,
+				0617A3C029C5113200F66923 /* SudokuSolver.swift */,
 			);
 			path = Random;
 			sourceTree = "<group>";
@@ -441,6 +444,7 @@
 				066EE0DD29390A21006CBE86 /* LexicographicalSort.swift in Sources */,
 				0608219728FB31EB008077B0 /* PriorityQueueArray.swift in Sources */,
 				0681B297292AB96C005A92EC /* RadixSort.swift in Sources */,
+				0617A3C129C5113200F66923 /* SudokuSolver.swift in Sources */,
 				06AC5B7B28B6595C000628DD /* QueueArray.swift in Sources */,
 				0617A3B629BB8B7300F66923 /* QuickSortHoare.swift in Sources */,
 				063A4A1A29B360B100B6018E /* GoodNotes.swift in Sources */,
