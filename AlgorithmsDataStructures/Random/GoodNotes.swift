@@ -7,9 +7,8 @@
 
 import Foundation
 
-class Smth {
+class Solution {
     func GetRejectedRequests(requests: [String], limit_per_second: Int) -> [Int] {
-        // Write your code here
         
         var requestIds: [String] = []
         var ipAddress: [String] = []
