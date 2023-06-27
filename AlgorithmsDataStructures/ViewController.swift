@@ -12,11 +12,103 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let knight = Knight()
-        knight.traverseKnight(startingFrom: Square(row: 0, column: 0))
         
-        knight.traverseKnight(startingFrom: Square(row: 0, column: 0))
+        testDepthFirstSearch()
+    }
+    
+    func testDepthFirstSearch() {
+        let graph = AdjacencyListGraph<String>()
+        let a = graph.createVertex(data: "A")
+        let b = graph.createVertex(data: "B")
+        let c = graph.createVertex(data: "C")
+        let d = graph.createVertex(data: "D")
+        let e = graph.createVertex(data: "E")
+        let f = graph.createVertex(data: "F")
+        let g = graph.createVertex(data: "G")
+        let h = graph.createVertex(data: "H")
+
+        graph.add(.undirected, from: a, to: b, weight: nil)
+        graph.add(.undirected, from: a, to: c, weight: nil)
+        graph.add(.undirected, from: a, to: d, weight: nil)
+        graph.add(.undirected, from: b, to: e, weight: nil)
+        graph.add(.undirected, from: c, to: g, weight: nil)
+        graph.add(.undirected, from: e, to: f, weight: nil)
+        graph.add(.undirected, from: e, to: h, weight: nil)
+        graph.add(.undirected, from: f, to: g, weight: nil)
+        graph.add(.undirected, from: f, to: c, weight: nil)
         
+        let vertices = graph.depthFirstRecursive(from: a)
+        vertices.forEach { vertex in
+          print(vertex)
+        }
+    }
+    
+    func createFriendGraph() {
+        let graph = AdjacencyListGraph<String>()
+        let vincent = graph.createVertex(data: "vincent")
+        let chesley = graph.createVertex(data: "chesley")
+        let ruiz = graph.createVertex(data: "ruiz")
+        let patrick = graph.createVertex(data: "patrick")
+        let ray = graph.createVertex(data: "ray")
+        let sun = graph.createVertex(data: "sun")
+        let cole = graph.createVertex(data: "cole")
+        let kerry = graph.createVertex(data: "kerry")
+        
+        let a = graph.createVertex(data: "a")
+        let b = graph.createVertex(data: "b")
+        graph.add(.undirected, from: a, to: b, weight: 1)
+        
+        graph.add(.undirected, from: vincent, to: chesley, weight: 1)
+        graph.add(.undirected, from: vincent, to: ruiz, weight: 1)
+        graph.add(.undirected, from: vincent, to: patrick, weight: 1)
+        graph.add(.undirected, from: ruiz, to: ray, weight: 1)
+        graph.add(.undirected, from: ruiz, to: sun, weight: 1)
+        graph.add(.undirected, from: patrick, to: cole, weight: 1)
+        graph.add(.undirected, from: patrick, to: kerry, weight: 1)
+        graph.add(.undirected, from: cole, to: ruiz, weight: 1)
+        graph.add(.undirected, from: cole, to: vincent, weight: 1)
+        
+//        let vincentsFriends = Set(graph.edges(from: vincent).map{ $0.destination.data })
+//        let mutual = vincentsFriends.intersection(graph.edges(from: ruiz).map { $0.destination.data })
+//        print(mutual)
+        
+        let result = graph.pathExists(from: a, to: ruiz)
+        print(result)
+    }
+    
+    func constructAdjacencyListGraph() {
+        let graph = AdjacencyListGraph<String>()
+        
+        let singapore = graph.createVertex(data: "Singapore")
+        let tokyo = graph.createVertex(data: "Tokyo")
+        let hongKong = graph.createVertex(data: "Hong Kong")
+        let detroit = graph.createVertex(data: "Detroit")
+        let sanFrancisco = graph.createVertex(data: "San Francisco")
+        let washingtonDC = graph.createVertex(data: "Washington DC")
+        let austinTexas = graph.createVertex(data: "Austin Texas")
+        let seattle = graph.createVertex(data: "Seattle")
+        
+        graph.add(.undirected, from: singapore, to: hongKong, weight:
+        300)
+        graph.add(.undirected, from: singapore, to: tokyo, weight: 500)
+        graph.add(.undirected, from: hongKong, to: tokyo, weight: 250)
+        graph.add(.undirected, from: tokyo, to: detroit, weight: 450)
+        graph.add(.undirected, from: tokyo, to: washingtonDC, weight:
+        300)
+        graph.add(.undirected, from: hongKong, to: sanFrancisco, weight:
+        600)
+        graph.add(.undirected, from: detroit, to: austinTexas, weight:
+        50)
+        graph.add(.undirected, from: austinTexas, to: washingtonDC,
+        weight: 292)
+        graph.add(.undirected, from: sanFrancisco, to: washingtonDC,
+        weight: 337)
+        graph.add(.undirected, from: washingtonDC, to: seattle, weight:
+        277)
+        graph.add(.undirected, from: sanFrancisco, to: seattle, weight:
+        218)
+        graph.add(.undirected, from: austinTexas, to: sanFrancisco,
+        weight: 297)
     }
     
     func getNthSmallestElement(n: Int, elements: [Int]) -> Int? {
