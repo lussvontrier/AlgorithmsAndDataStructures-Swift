@@ -29,6 +29,9 @@
 		061B14AD2A32694D0088E466 /* Graph+BreadthFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B14AC2A32694D0088E466 /* Graph+BreadthFirst.swift */; };
 		061B14AF2A32696C0088E466 /* Graph+Paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B14AE2A32696C0088E466 /* Graph+Paths.swift */; };
 		061B14B12A3269B60088E466 /* Graph+DepthFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B14B02A3269B60088E466 /* Graph+DepthFirst.swift */; };
+		061B15162A5349650088E466 /* Dijkstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B15152A5349650088E466 /* Dijkstra.swift */; };
+		061B15192A560F3B0088E466 /* Prim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B15182A560F3B0088E466 /* Prim.swift */; };
+		061B151B2A56E6AB0088E466 /* PrimChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B151A2A56E6AB0088E466 /* PrimChallenge.swift */; };
 		063A4A1A29B360B100B6018E /* GoodNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063A4A1929B360B100B6018E /* GoodNotes.swift */; };
 		0647630F28A256F200497902 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0647630E28A256F200497902 /* AppDelegate.swift */; };
 		0647631128A256F200497902 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0647631028A256F200497902 /* SceneDelegate.swift */; };
@@ -90,6 +93,9 @@
 		061B14AC2A32694D0088E466 /* Graph+BreadthFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Graph+BreadthFirst.swift"; sourceTree = "<group>"; };
 		061B14AE2A32696C0088E466 /* Graph+Paths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Graph+Paths.swift"; sourceTree = "<group>"; };
 		061B14B02A3269B60088E466 /* Graph+DepthFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Graph+DepthFirst.swift"; sourceTree = "<group>"; };
+		061B15152A5349650088E466 /* Dijkstra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dijkstra.swift; sourceTree = "<group>"; };
+		061B15182A560F3B0088E466 /* Prim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prim.swift; sourceTree = "<group>"; };
+		061B151A2A56E6AB0088E466 /* PrimChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimChallenge.swift; sourceTree = "<group>"; };
 		063A4A1929B360B100B6018E /* GoodNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodNotes.swift; sourceTree = "<group>"; };
 		0647630B28A256F200497902 /* AlgorithmsDataStructures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgorithmsDataStructures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0647630E28A256F200497902 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -206,6 +212,23 @@
 			path = Random;
 			sourceTree = "<group>";
 		};
+		061B15142A53494C0088E466 /* Dijkstra */ = {
+			isa = PBXGroup;
+			children = (
+				061B15152A5349650088E466 /* Dijkstra.swift */,
+			);
+			path = Dijkstra;
+			sourceTree = "<group>";
+		};
+		061B15172A560F2C0088E466 /* Prim */ = {
+			isa = PBXGroup;
+			children = (
+				061B15182A560F3B0088E466 /* Prim.swift */,
+				061B151A2A56E6AB0088E466 /* PrimChallenge.swift */,
+			);
+			path = Prim;
+			sourceTree = "<group>";
+		};
 		0647630228A256F200497902 = {
 			isa = PBXGroup;
 			children = (
@@ -299,6 +322,8 @@
 		069B23B42A28FDD60081E5FF /* Graphs */ = {
 			isa = PBXGroup;
 			children = (
+				061B15172A560F2C0088E466 /* Prim */,
+				061B15142A53494C0088E466 /* Dijkstra */,
 				069B23B52A28FE200081E5FF /* Graph.swift */,
 				061B14AE2A32696C0088E466 /* Graph+Paths.swift */,
 				061B14AC2A32694D0088E466 /* Graph+BreadthFirst.swift */,
@@ -443,6 +468,7 @@
 				0608218428DC9FDE008077B0 /* TrieNode.swift in Sources */,
 				06AC5B9228BFD7DC000628DD /* ChallengeMaterial.swift in Sources */,
 				0675EE8E29ED92C50028B4E9 /* KnightMoves.swift in Sources */,
+				061B15162A5349650088E466 /* Dijkstra.swift in Sources */,
 				06AC5B8D28BA6C01000628DD /* DoubleEndedQueue.swift in Sources */,
 				06AC5B9028BFA0FE000628DD /* TreeNode.swift in Sources */,
 				061B14B12A3269B60088E466 /* Graph+DepthFirst.swift in Sources */,
@@ -473,6 +499,7 @@
 				0617A3BA29BB945600F66923 /* QuickSortDutchFlag.swift in Sources */,
 				06AC5B8228B8A656000628DD /* RingBuffer.swift in Sources */,
 				0647631128A256F200497902 /* SceneDelegate.swift in Sources */,
+				061B15192A560F3B0088E466 /* Prim.swift in Sources */,
 				0681B2912923ECB7005A92EC /* Challenges.swift in Sources */,
 				0647632928ABB7A400497902 /* Stack.swift in Sources */,
 				0647632428A2572100497902 /* Node.swift in Sources */,
@@ -481,6 +508,7 @@
 				0608218C28EC3D02008077B0 /* Heap.swift in Sources */,
 				0617A3B229BB842000F66923 /* QuickSortNaive.swift in Sources */,
 				06AC5B9528BFDBF4000628DD /* BinaryTreeNode.swift in Sources */,
+				061B151B2A56E6AB0088E466 /* PrimChallenge.swift in Sources */,
 				06AC5B7F28B65E53000628DD /* QueueLinkedList.swift in Sources */,
 				066EE0DD29390A21006CBE86 /* LexicographicalSort.swift in Sources */,
 				061B14AD2A32694D0088E466 /* Graph+BreadthFirst.swift in Sources */,

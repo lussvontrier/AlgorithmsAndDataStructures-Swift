@@ -39,6 +39,13 @@ class AdjacencyListGraph<T: Hashable>: Graph {
     func weight(from source: Vertex<T>, to destination: Vertex<T>) -> Double? {
         edges(from: source).first { $0.destination == destination }?.weight
     }
+    
+    //MARK: Copy
+    func copyVertices(from graph: AdjacencyListGraph) {
+        for vertex in graph.allVertices {
+            adjacencies[vertex] = []
+        }
+    }
 }
 
 extension AdjacencyListGraph: CustomStringConvertible {

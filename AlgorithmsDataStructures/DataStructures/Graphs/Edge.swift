@@ -12,3 +12,5 @@ struct Edge<T> {
     let destination: Vertex<T>
     let weight: Double?
 }
+
+extension Edge: Equatable where T: Equatable {}

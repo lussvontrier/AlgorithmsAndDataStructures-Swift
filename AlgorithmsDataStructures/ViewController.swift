@@ -13,10 +13,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         
-        testDepthFirstSearch()
+        testBreadthFirstSearch()
     }
     
-    func testDepthFirstSearch() {
+    func testBreadthFirstSearch() {
         let graph = AdjacencyListGraph<String>()
         let a = graph.createVertex(data: "A")
         let b = graph.createVertex(data: "B")
@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         graph.add(.undirected, from: f, to: g, weight: nil)
         graph.add(.undirected, from: f, to: c, weight: nil)
         
-        let vertices = graph.depthFirstRecursive(from: a)
+        let vertices = graph.breadthFirstIterative(from: a)
         vertices.forEach { vertex in
           print(vertex)
         }
