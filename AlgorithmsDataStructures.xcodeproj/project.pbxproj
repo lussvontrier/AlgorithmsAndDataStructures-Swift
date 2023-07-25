@@ -32,6 +32,7 @@
 		061B15162A5349650088E466 /* Dijkstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B15152A5349650088E466 /* Dijkstra.swift */; };
 		061B15192A560F3B0088E466 /* Prim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B15182A560F3B0088E466 /* Prim.swift */; };
 		061B151B2A56E6AB0088E466 /* PrimChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B151A2A56E6AB0088E466 /* PrimChallenge.swift */; };
+		061B151D2A66C87D0088E466 /* MergeSortLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B151C2A66C87D0088E466 /* MergeSortLinkedList.swift */; };
 		063A4A1A29B360B100B6018E /* GoodNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063A4A1929B360B100B6018E /* GoodNotes.swift */; };
 		0647630F28A256F200497902 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0647630E28A256F200497902 /* AppDelegate.swift */; };
 		0647631128A256F200497902 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0647631028A256F200497902 /* SceneDelegate.swift */; };
@@ -96,6 +97,7 @@
 		061B15152A5349650088E466 /* Dijkstra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dijkstra.swift; sourceTree = "<group>"; };
 		061B15182A560F3B0088E466 /* Prim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prim.swift; sourceTree = "<group>"; };
 		061B151A2A56E6AB0088E466 /* PrimChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimChallenge.swift; sourceTree = "<group>"; };
+		061B151C2A66C87D0088E466 /* MergeSortLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortLinkedList.swift; sourceTree = "<group>"; };
 		063A4A1929B360B100B6018E /* GoodNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodNotes.swift; sourceTree = "<group>"; };
 		0647630B28A256F200497902 /* AlgorithmsDataStructures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgorithmsDataStructures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0647630E28A256F200497902 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -306,6 +308,7 @@
 			isa = PBXGroup;
 			children = (
 				0681B2932923F4AC005A92EC /* MergeSort.swift */,
+				061B151C2A66C87D0088E466 /* MergeSortLinkedList.swift */,
 			);
 			path = "O(nlogn)SortingAlgorithms";
 			sourceTree = "<group>";
@@ -468,6 +471,7 @@
 				0608218428DC9FDE008077B0 /* TrieNode.swift in Sources */,
 				06AC5B9228BFD7DC000628DD /* ChallengeMaterial.swift in Sources */,
 				0675EE8E29ED92C50028B4E9 /* KnightMoves.swift in Sources */,
+				061B151D2A66C87D0088E466 /* MergeSortLinkedList.swift in Sources */,
 				061B15162A5349650088E466 /* Dijkstra.swift in Sources */,
 				06AC5B8D28BA6C01000628DD /* DoubleEndedQueue.swift in Sources */,
 				06AC5B9028BFA0FE000628DD /* TreeNode.swift in Sources */,
