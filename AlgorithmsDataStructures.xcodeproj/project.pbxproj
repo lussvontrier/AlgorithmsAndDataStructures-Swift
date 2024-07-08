@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0605695F2C3C14830034AF0F /* Empty.md in Resources */ = {isa = PBXBuildFile; fileRef = 0605695E2C3C14830034AF0F /* Empty.md */; };
+		060569612C3C150F0034AF0F /* Josephus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060569602C3C150F0034AF0F /* Josephus.swift */; };
+		060569632C3C1E440034AF0F /* Partitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060569622C3C1E440034AF0F /* Partitions.swift */; };
+		060569662C3C21320034AF0F /* MaximumBuckets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060569652C3C21320034AF0F /* MaximumBuckets.swift */; };
+		060569682C3C3E520034AF0F /* MarsExperiments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060569672C3C3E520034AF0F /* MarsExperiments.swift */; };
+		0605696A2C3C7EC70034AF0F /* SlidingWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060569692C3C7EC70034AF0F /* SlidingWindow.swift */; };
+		0605696C2C3C841C0034AF0F /* TwoPointers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0605696B2C3C841C0034AF0F /* TwoPointers.swift */; };
+		060701302AEE8E0C00C7D9F2 /* Yandex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0607012F2AEE8E0C00C7D9F2 /* Yandex.swift */; };
 		0608218028CF75FB008077B0 /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0608217F28CF75FB008077B0 /* BinarySearchTree.swift */; };
 		0608218228DB75E6008077B0 /* TraversableBinaryTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0608218128DB75E6008077B0 /* TraversableBinaryTreeNode.swift */; };
 		0608218428DC9FDE008077B0 /* TrieNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0608218328DC9FDE008077B0 /* TrieNode.swift */; };
@@ -33,6 +41,7 @@
 		061B15192A560F3B0088E466 /* Prim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B15182A560F3B0088E466 /* Prim.swift */; };
 		061B151B2A56E6AB0088E466 /* PrimChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B151A2A56E6AB0088E466 /* PrimChallenge.swift */; };
 		061B151D2A66C87D0088E466 /* MergeSortLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B151C2A66C87D0088E466 /* MergeSortLinkedList.swift */; };
+		061B151F2A705DFC0088E466 /* Google.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B151E2A705DFC0088E466 /* Google.swift */; };
 		063A4A1A29B360B100B6018E /* GoodNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063A4A1929B360B100B6018E /* GoodNotes.swift */; };
 		0647630F28A256F200497902 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0647630E28A256F200497902 /* AppDelegate.swift */; };
 		0647631128A256F200497902 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0647631028A256F200497902 /* SceneDelegate.swift */; };
@@ -51,6 +60,7 @@
 		0681B2912923ECB7005A92EC /* Challenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0681B2902923ECB7005A92EC /* Challenges.swift */; };
 		0681B2942923F4AC005A92EC /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0681B2932923F4AC005A92EC /* MergeSort.swift */; };
 		0681B297292AB96C005A92EC /* RadixSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0681B296292AB96C005A92EC /* RadixSort.swift */; };
+		0692CDAD2ADFFF4E00265A76 /* Turing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0692CDAC2ADFFF4E00265A76 /* Turing.swift */; };
 		069B23B62A28FE200081E5FF /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B23B52A28FE200081E5FF /* Graph.swift */; };
 		069B23B82A2900860081E5FF /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B23B72A2900860081E5FF /* Vertex.swift */; };
 		069B23BA2A292BFB0081E5FF /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069B23B92A292BFB0081E5FF /* Edge.swift */; };
@@ -72,6 +82,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0605695E2C3C14830034AF0F /* Empty.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Empty.md; sourceTree = "<group>"; };
+		060569602C3C150F0034AF0F /* Josephus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Josephus.swift; sourceTree = "<group>"; };
+		060569622C3C1E440034AF0F /* Partitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Partitions.swift; sourceTree = "<group>"; };
+		060569652C3C21320034AF0F /* MaximumBuckets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumBuckets.swift; sourceTree = "<group>"; };
+		060569672C3C3E520034AF0F /* MarsExperiments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsExperiments.swift; sourceTree = "<group>"; };
+		060569692C3C7EC70034AF0F /* SlidingWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingWindow.swift; sourceTree = "<group>"; };
+		0605696B2C3C841C0034AF0F /* TwoPointers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoPointers.swift; sourceTree = "<group>"; };
+		0607012F2AEE8E0C00C7D9F2 /* Yandex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yandex.swift; sourceTree = "<group>"; };
 		0608217F28CF75FB008077B0 /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
 		0608218128DB75E6008077B0 /* TraversableBinaryTreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraversableBinaryTreeNode.swift; sourceTree = "<group>"; };
 		0608218328DC9FDE008077B0 /* TrieNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrieNode.swift; sourceTree = "<group>"; };
@@ -98,6 +116,7 @@
 		061B15182A560F3B0088E466 /* Prim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prim.swift; sourceTree = "<group>"; };
 		061B151A2A56E6AB0088E466 /* PrimChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimChallenge.swift; sourceTree = "<group>"; };
 		061B151C2A66C87D0088E466 /* MergeSortLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortLinkedList.swift; sourceTree = "<group>"; };
+		061B151E2A705DFC0088E466 /* Google.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Google.swift; sourceTree = "<group>"; };
 		063A4A1929B360B100B6018E /* GoodNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodNotes.swift; sourceTree = "<group>"; };
 		0647630B28A256F200497902 /* AlgorithmsDataStructures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgorithmsDataStructures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0647630E28A256F200497902 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +137,7 @@
 		0681B2902923ECB7005A92EC /* Challenges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenges.swift; sourceTree = "<group>"; };
 		0681B2932923F4AC005A92EC /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		0681B296292AB96C005A92EC /* RadixSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadixSort.swift; sourceTree = "<group>"; };
+		0692CDAC2ADFFF4E00265A76 /* Turing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turing.swift; sourceTree = "<group>"; };
 		069B23B52A28FE200081E5FF /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		069B23B72A2900860081E5FF /* Vertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
 		069B23B92A292BFB0081E5FF /* Edge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
@@ -149,6 +169,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		060569642C3C211D0034AF0F /* DynamicProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				060569652C3C21320034AF0F /* MaximumBuckets.swift */,
+				060569672C3C3E520034AF0F /* MarsExperiments.swift */,
+			);
+			path = DynamicProgramming;
+			sourceTree = "<group>";
+		};
 		0608218728E8DC96008077B0 /* BinarySearch */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +239,13 @@
 				0617A3BE29C22EED00F66923 /* RobotCleaner.swift */,
 				0617A3C029C5113200F66923 /* SudokuSolver.swift */,
 				0675EE8D29ED92C50028B4E9 /* KnightMoves.swift */,
+				061B151E2A705DFC0088E466 /* Google.swift */,
+				0692CDAC2ADFFF4E00265A76 /* Turing.swift */,
+				0607012F2AEE8E0C00C7D9F2 /* Yandex.swift */,
+				060569602C3C150F0034AF0F /* Josephus.swift */,
+				060569622C3C1E440034AF0F /* Partitions.swift */,
+				060569692C3C7EC70034AF0F /* SlidingWindow.swift */,
+				0605696B2C3C841C0034AF0F /* TwoPointers.swift */,
 			);
 			path = Random;
 			sourceTree = "<group>";
@@ -234,6 +270,7 @@
 		0647630228A256F200497902 = {
 			isa = PBXGroup;
 			children = (
+				0605695E2C3C14830034AF0F /* Empty.md */,
 				0647630D28A256F200497902 /* AlgorithmsDataStructures */,
 				0647630C28A256F200497902 /* Products */,
 			);
@@ -252,6 +289,7 @@
 			children = (
 				0617A3BB29BE527F00F66923 /* Random */,
 				0681B2882923DC01005A92EC /* Algorithms */,
+				060569642C3C211D0034AF0F /* DynamicProgramming */,
 				060821D92915238E008077B0 /* DataStructures */,
 				0647630E28A256F200497902 /* AppDelegate.swift */,
 				0647631028A256F200497902 /* SceneDelegate.swift */,
@@ -455,6 +493,7 @@
 			files = (
 				0647631B28A256F400497902 /* LaunchScreen.storyboard in Resources */,
 				0647631828A256F400497902 /* Assets.xcassets in Resources */,
+				0605695F2C3C14830034AF0F /* Empty.md in Resources */,
 				0647631628A256F200497902 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,6 +509,7 @@
 				060821DB291523A7008077B0 /* Palindrome.swift in Sources */,
 				0608218428DC9FDE008077B0 /* TrieNode.swift in Sources */,
 				06AC5B9228BFD7DC000628DD /* ChallengeMaterial.swift in Sources */,
+				061B151F2A705DFC0088E466 /* Google.swift in Sources */,
 				0675EE8E29ED92C50028B4E9 /* KnightMoves.swift in Sources */,
 				061B151D2A66C87D0088E466 /* MergeSortLinkedList.swift in Sources */,
 				061B15162A5349650088E466 /* Dijkstra.swift in Sources */,
@@ -489,13 +529,19 @@
 				0617A3B429BB85B300F66923 /* QuickSortLomuto.swift in Sources */,
 				06AC5B8B28B90AA8000628DD /* ReverseQueue.swift in Sources */,
 				0617A3AF29B8D11300F66923 /* Matrix.swift in Sources */,
+				060569632C3C1E440034AF0F /* Partitions.swift in Sources */,
 				06AC5B8928B902CF000628DD /* BoardGameManager.swift in Sources */,
+				060569662C3C21320034AF0F /* MaximumBuckets.swift in Sources */,
 				069B23B82A2900860081E5FF /* Vertex.swift in Sources */,
+				060701302AEE8E0C00C7D9F2 /* Yandex.swift in Sources */,
 				0617A3BF29C22EED00F66923 /* RobotCleaner.swift in Sources */,
 				0608218628DCA692008077B0 /* Trie.swift in Sources */,
+				060569682C3C3E520034AF0F /* MarsExperiments.swift in Sources */,
 				06AC5B8428B8A676000628DD /* QueueRingBuffer.swift in Sources */,
 				0681B28E2923E532005A92EC /* InsertionSort.swift in Sources */,
+				0605696C2C3C841C0034AF0F /* TwoPointers.swift in Sources */,
 				0647632628A259D900497902 /* LinkedList.swift in Sources */,
+				060569612C3C150F0034AF0F /* Josephus.swift in Sources */,
 				069B23B62A28FE200081E5FF /* Graph.swift in Sources */,
 				0681B28A2923DC18005A92EC /* BubbleSort.swift in Sources */,
 				0681B2942923F4AC005A92EC /* MergeSort.swift in Sources */,
@@ -520,11 +566,13 @@
 				0681B297292AB96C005A92EC /* RadixSort.swift in Sources */,
 				0617A3C129C5113200F66923 /* SudokuSolver.swift in Sources */,
 				06AC5B7B28B6595C000628DD /* QueueArray.swift in Sources */,
+				0605696A2C3C7EC70034AF0F /* SlidingWindow.swift in Sources */,
 				0617A3B629BB8B7300F66923 /* QuickSortHoare.swift in Sources */,
 				063A4A1A29B360B100B6018E /* GoodNotes.swift in Sources */,
 				069B23BE2A2A57B30081E5FF /* AdjacencyMatrixGraph.swift in Sources */,
 				0608219228F611BE008077B0 /* PriorityQueueHeap.swift in Sources */,
 				061B14AF2A32696C0088E466 /* Graph+Paths.swift in Sources */,
+				0692CDAD2ADFFF4E00265A76 /* Turing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -178,6 +178,20 @@ struct LinkedList<T> {
         head = preceding
     }
     
+    mutating func reverse2() {
+        var prev: Node<T>? = nil
+        var current = head
+        var next: Node<T>? = nil
+        
+        while current != nil {
+            next = current?.next
+            current?.next = prev
+            prev = current
+            current = next
+        }
+        head = prev
+    }
+    
     mutating func removeOccurrences<T: Comparable>(of value: T) {
         
         while let head = head, head.value as! T == value {

@@ -8,43 +8,27 @@
 import Foundation
 
 class Solution {
-    func GetRejectedRequests(requests: [String], limit_per_second: Int) -> [Int] {
-        
-        var requestIds: [String] = []
-        var ipAddress: [String] = []
-        var timestampMilisec: [Int] = []
-        
-        var rejectedRequests: [String] = []
-        var timestampsPerIp: [String: [Int]] = [:]
-        
-        requests.map {
-            let arr = $0.components(separatedBy: " ")
-            requestIds.append(arr[0])
-            ipAddress.append(arr[1])
-            timestampMilisec.append(Int(arr[2]) ?? 0)
-        }
-        
-        for i in 0...requestIds.count-1 {
-            if timestampsPerIp[ipAddress[i], default: []].isEmpty {
-                timestampsPerIp[ipAddress[i], default: []].append(timestampMilisec[i])
-            } else {
-                if timestampMilisec[i] - timestampsPerIp[ipAddress[i], default: []][0] > 1000 {
-                    timestampsPerIp[ipAddress[i]] = [timestampMilisec[i]]
-                } else {
-                    if timestampsPerIp[ipAddress[i], default: []].count + 1 > limit_per_second {
-                        rejectedRequests.append(requestIds[i])
-                    } else {
-                        timestampsPerIp[ipAddress[i], default: []].append(timestampMilisec[i])
-                    }
-                }
-            }
+    func getRejectedRequests(requests: [String], limitPerSecond: Int) -> [Int] {
+        var timestampsByIp: [String: [Int]] = [:]
+        var rejectedRequestIDs: [Int] = []
 
+        for request in requests {
+            let components = request.components(separatedBy: " ")
+            guard let requestID = Int(components[0]),
+                  let timestamp = Int(components[2]) else { continue }
+
+            let ip = components[1]
+            let currentTimestamps = timestampsByIp[ip, default: []]
+
+            if let firstTimestamp = currentTimestamps.first,
+               timestamp - firstTimestamp <= 1000,
+               currentTimestamps.count >= limitPerSecond {
+                rejectedRequestIDs.append(requestID)
+            } else {
+                timestampsByIp[ip] = currentTimestamps.filter { timestamp - $0 <= 1000 } + [timestamp]
+            }
         }
-        
-        if rejectedRequests.isEmpty {
-            return []
-        } else {
-            return rejectedRequests.map { Int($0) ?? 0 }
-        }
+
+        return rejectedRequestIDs
     }
 }

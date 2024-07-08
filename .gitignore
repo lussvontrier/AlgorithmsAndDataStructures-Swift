@@ -1,0 +1,13 @@
+# Ignore macOS specific file
+.DS_Store
+
+# Ignore Xcode user-specific project settings
+*.xcuserstate
+
+# Other typical files to ignore in Xcode projects
+*.xcuserdata/
+*.xcworkspace/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+DerivedData/
+build/

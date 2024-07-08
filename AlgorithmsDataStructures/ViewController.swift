@@ -7,13 +7,51 @@
 
 import UIKit
 
+class Solution1 {
+    func combine(_ n: Int, _ k: Int) -> [[Int]] {
+        guard k <= n else { return [[]] }
+        
+        var currentArray: [Int] = []
+        var result = [[Int]]()
+        backtrack(currentNumber: 1, currentArray: &currentArray, result: &result, n: n, k: k)
+        return result
+    }
+    
+    private func backtrack(currentNumber: Int, currentArray: inout [Int], result: inout [[Int]], n: Int, k: Int) {
+
+        if currentArray.count == k {
+            result.append(currentArray)
+        } else {
+            let need = k - currentArray.count
+            let remain = n - currentNumber + 1
+            let available = remain - need
+
+            for i in currentNumber...currentNumber+available {
+                currentArray.append(i)
+                backtrack(currentNumber: i+1, currentArray: &currentArray, result: &result, n: n, k: k)
+                currentArray.removeLast()
+            }
+            
+        }
+
+    }
+}
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         
-        testBreadthFirstSearch()
+        let array: [Character] = ["m", "a", "l", "a", "y", "a", "l", "a", "m"]
+        let result = Palindrome.countOfPalindromes(for: array)
+        print(result)
+    }
+    
+    func testGoogle() {
+        let g = Google()
+        let result = g.reachables(startVertices: [1, 2, 5], endVertices: [1, 6, 2], edges: [[1, 5], [1, 4], [5, 3], [3, 2], [2, 6], [4, 6], [5, 6]])
+        print(result)
     }
     
     func testBreadthFirstSearch() {
